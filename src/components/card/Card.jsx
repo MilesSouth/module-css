@@ -1,5 +1,6 @@
-import React from "react"
 import "./Card.css"
+import Button from "../button/Button"
+
 const Card = ({ title, img, btnText }) => {
   return (
     <div className="card">
@@ -11,7 +12,7 @@ const Card = ({ title, img, btnText }) => {
           <img src={img} alt="" />
         </div>
         <div className="button">
-          <button>{btnText}</button>
+          <Button btnText={btnText}></Button>
         </div>
       </div>
     </div>
