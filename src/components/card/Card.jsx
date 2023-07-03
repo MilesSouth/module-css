@@ -1,4 +1,4 @@
-import "./Card.css"
+import CardStyle from "./Card.module.css"
 import Button from "../button/Button"
 
 const Card = ({ title, img, btnText }) => {
