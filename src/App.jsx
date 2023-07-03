@@ -5,7 +5,12 @@ function App() {
     <>
       {data.map((item) => {
         return (
-          <Card title={item.language} img={item.img} btnText={item.btnName} />
+          <Card
+            key={item.id}
+            title={item.language}
+            img={item.img}
+            btnText={item.btnName}
+          />
         )
       })}
     </>
