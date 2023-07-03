@@ -4,7 +4,7 @@ const Button = ({ btnText }) => {
   return (
     <>
       <button className={ButonStyle["button-text"]}>{btnText}</button>
-      <button className={ButonStyle.button}>{btnText}</button>
+      {/* <button className={ButonStyle.button}>{btnText}</button> */}
     </>
   )
 }
